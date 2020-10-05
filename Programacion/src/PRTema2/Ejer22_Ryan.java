@@ -22,6 +22,7 @@ public class Ejer22_Ryan {
             
             if (num%2==0) {
                 numTotal = numTotal + num;
+                System.out.println(num);
             }
             num++;
         }
