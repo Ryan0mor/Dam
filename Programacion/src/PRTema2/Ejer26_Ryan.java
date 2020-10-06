@@ -18,8 +18,10 @@ public class Ejer26_Ryan {
         int num = sc.nextInt();
         int total = 1;
         
-        for (int i = 1; i <= num ; i++) {
-            System.out.println(i);
+        for (int i = 1; i <= num; i++) {
+            System.out.println(total);
+            total = total*i;
+            
         }
         
         System.out.println(total);
