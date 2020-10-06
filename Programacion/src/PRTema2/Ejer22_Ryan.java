@@ -18,14 +18,17 @@ public class Ejer22_Ryan {
         Scanner sc = new Scanner(System.in);
         int numInput = sc.nextInt();
         int num = numInput;
+        int numTotal = 0;
         
         for (int i = 1; i <= 2*numInput; i++) {
             
             if (num%2==0) {
+                numTotal = numTotal + num;
                 System.out.println(num);
             }
             num++;
         }
+        System.out.println(numTotal);
     }
     
 }
