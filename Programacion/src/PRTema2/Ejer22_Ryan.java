@@ -1,7 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Ejer22:Desarrolla un programa en Java que pida un numero, N, por
+çteclado y calcule la suma de los N primeros números pares a partir
+del número que ha introducido el usuario (si el número introducido es
+par sería el primer número que hay que sumar). Es decir, si insertamos 
+un 5, nos haga la suma de 6+8+10+12+14.
  */
 package PRTema2;
 

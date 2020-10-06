@@ -1,7 +1,27 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Ejer24.-Mostrar el cuadrado de todos los números desde el 20 al 10 (descendiente)
+
+El cuadrado de: 20 es: 400
+
+El cuadrado de: 19 es: 361
+
+El cuadrado de: 18 es: 324
+
+El cuadrado de: 17 es: 289
+
+El cuadrado de: 16 es: 256
+
+El cuadrado de: 15 es: 225
+
+El cuadrado de: 14 es: 196
+
+El cuadrado de: 13 es: 169
+
+El cuadrado de: 12 es: 144
+
+El cuadrado de: 11 es: 121
+
+El cuadrado de: 10 es: 100
  */
 package PRTema2;
 

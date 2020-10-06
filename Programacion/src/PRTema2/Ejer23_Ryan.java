@@ -1,7 +1,11 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Ejer23.-Mostrar la cuenta atrás de un segundero:
+
+60
+
+59
+
+...
  */
 package PRTema2;
 
