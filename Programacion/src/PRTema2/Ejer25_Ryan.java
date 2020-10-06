@@ -1,7 +1,8 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Ejer25.-Pedir un nº entre 100 y 200 (incluidos), comprobar que el valor
+del número introducido es adecuado, si no lo es, volver a pedirlo hasta 
+que sea el valor adecuado.  Después mostrar el código ASCII desde el
+100 hasta el nº introducido.
  */
 package PRTema2;
 

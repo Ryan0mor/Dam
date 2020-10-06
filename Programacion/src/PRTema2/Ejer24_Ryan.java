@@ -31,12 +31,16 @@ package PRTema2;
  */
 public class Ejer24_Ryan {
     public static void main(String[] args) {
-        int num1 = 10;
+        int num1 = 1;
         int num2 = 20;
         
+        raices(num1, num2);
+
+    }
+    public static void raices (int num1, int num2) {
         for (int i = num2; i >= num1; i--) {
-            System.out.println(i*i);
-            
+        System.out.println(i*i);
+        
         }
     }
     
