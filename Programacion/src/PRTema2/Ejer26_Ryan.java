@@ -19,7 +19,6 @@ public class Ejer26_Ryan {
         int total = 1;
         
         for (int i = 1; i <= num; i++) {
-            System.out.println(total);
             total = total*i;
             
         }

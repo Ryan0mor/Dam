@@ -7,17 +7,17 @@ package PRTema2;
 
 /**
  *
- * @author ryano
+ * @author Ryan
  */
-public class Ejer28_Ryan {
+public class Ejer29_Ryan {
     public static void main(String[] args) {
         
-        for (int k = 0; k <= 24; k++) {  
-            for (int j = 0; j <= 60; j++) {
-                for (int i = 0; i <= 60; i++) {
-                    System.out.printf("%02d:%02d:02\n", k, j, i);
-                }
+        for (int i = 1; i <= 5; i++) {
+            
+            for (int j = 1; j <= 3; j++) {
+                System.out.printf("pag %2d ejercicio %2d\n",i, j);
             }
+            
         }
     }
     
