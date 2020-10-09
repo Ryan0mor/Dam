@@ -13,7 +13,7 @@ import java.util.Scanner;
  */
 public class Ejer30_Ryan {
     Scanner sc = new Scanner(System.in);
-    int num1 = 
+    int num1 =  
     
     
 }
