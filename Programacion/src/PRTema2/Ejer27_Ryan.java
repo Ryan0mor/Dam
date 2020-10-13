@@ -21,6 +21,7 @@ public class Ejer27_Ryan {
             System.out.println("Dame un numero");
             num = sc.nextInt();
             total = 1;
+            
             for (int i = 1; i <= num; i++) {
                 total = total*i;
             }
