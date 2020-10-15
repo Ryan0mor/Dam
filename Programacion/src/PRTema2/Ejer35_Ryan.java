@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 public class Ejer35_Ryan {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Strin
+        
         double a = 1.25063,c = 1.22;
         int b = 20;
         
