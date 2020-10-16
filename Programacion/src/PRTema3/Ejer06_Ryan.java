@@ -15,11 +15,34 @@ public class Ejer06_Ryan {
     public static void main(String[] args) {
         String frase = JOptionPane.showInputDialog("Dame una frase");
         int contador = 0;
-        int longCadena = 
+        int longCadena = frase.length();
+        char caracter = '0';
         
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < longCadena; i++) {
+            caracter = frase.charAt(i);
+            switch (caracter) {
+                case 'a':
+                    contador++;
+                    break;
+                case 'e':
+                    contador++;
+                    break;
+                case 'i':
+                    contador++;
+                    break;
+                case 'o':
+                    contador++;
+                    break;
+                case 'u':
+                    contador++;
+                    break;
+                 
+                    
+                        
+            }
             
         }
+        System.out.println(contador);
     }
     
 }
