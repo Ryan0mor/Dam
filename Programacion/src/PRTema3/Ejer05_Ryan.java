@@ -6,23 +6,24 @@
 package PRTema3;
 
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 
 /**
  *
  * @author Ryan
  */
-public class Ejer2_Ryan {
+public class Ejer05_Ryan {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String cadena = sc.nextLine();
+        int longCadena = (cadena.length()-1);
+        char caracter;
         
-        int longitud =0;
-        
-        do {  
-            String cadena = JOptionPane.showInputDialog("dame una cadena");
-            longitud = cadena.length();
-            System.out.println("La longitud es: " + longitud);
+        for (int i = longCadena; i >= 0; i--) {
+            caracter = cadena.charAt(i);
+            System.out.print(caracter);
             
-        } while (longitud>0);
+        }
+        
         
     }
     

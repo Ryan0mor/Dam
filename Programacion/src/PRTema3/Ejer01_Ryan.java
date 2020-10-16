@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
  *
  * @author Ryan
  */
-public class Ejer1_Ryan {
+public class Ejer01_Ryan {
     public static void main(String[] args) {
         
          
