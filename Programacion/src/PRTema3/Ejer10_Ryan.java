@@ -17,22 +17,24 @@ public class Ejer10_Ryan {
         int longCadena = cadena.length();
         char caracter;
         String palabra = "";
-        int contador = 0;
+        int contador = 1;
         
         for (int i = 0; i < longCadena; i++) {
             caracter = cadena.charAt(i);
             if (caracter == ' ') {
-                System.out.println("");
+                System.out.println(palabra);
                 palabra = "";
-            } else
-                palabra = palabra + caracter;
                 contador++;
+
+            } else {
+                palabra = palabra + caracter;
+            }
+        }
         System.out.println(palabra);
+
         System.out.println(contador);
 
-            
-        }
-        
-    }
+    }    
+
     
 }
