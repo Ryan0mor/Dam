@@ -17,18 +17,17 @@ public class Ejer14_Ryan {
         String cadenaOutput;
         cadenaInput = JOptionPane.showInputDialog("Dame un nombre");
         cadenaOutput = cadenaInput;
-        if (cadenaInput.compareTo(cadenaOutput) <= 0) {
-                cadenaOutput = cadenaInput;
-            }
-        
+        System.out.println(cadenaOutput);
+
         for (int i = 0; i < 4; i++) {
             cadenaInput = JOptionPane.showInputDialog("Dame un nombre");
+            System.out.println(cadenaOutput);
             if (cadenaInput.compareTo(cadenaOutput) <= 0) {
                 cadenaOutput = cadenaInput;
             }
         }
         
-        System.out.println(cadenaOutput);
+        System.out.println("El primer nombre es " + cadenaOutput);
         
     }
     
