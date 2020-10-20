@@ -10,17 +10,25 @@ package PRTema3;
  * @author Ryan
  */
 public class Ejer17 {
-    public static boolean comprobarPass (String passUsuario){
-        boolean checkPass = true;
-        int longPass = passUsuario.length();
-        if (longPass > 2 && longPass < 10){
-            
+    public static boolean passCheck (String passInput){
+        boolean resultado;
+        char caracter;
+        int contadorCadena = passInput.length();
+        if (contadorCadena>2 && contadorCadena<10) {
+            for (int i = 0; i < contadorCadena; i++) {
+                caracter = passInput.charAt(i);
+                if (caracter == ' ') {
+                    
+                    
+                }
+                
+            }
         }
-        return checkPass;
+
+        return resultado;
     }
-    
+            
     public static void main(String[] args) {
         
     }
-    
 }

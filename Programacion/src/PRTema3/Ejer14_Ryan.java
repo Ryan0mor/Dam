@@ -21,7 +21,7 @@ public class Ejer14_Ryan {
 
         for (int i = 0; i < 4; i++) {
             cadenaInput = JOptionPane.showInputDialog("Dame un nombre");
-            System.out.println(cadenaOutput);
+            System.out.println(cadenaInput);
             if (cadenaInput.compareTo(cadenaOutput) <= 0) {
                 cadenaOutput = cadenaInput;
             }
