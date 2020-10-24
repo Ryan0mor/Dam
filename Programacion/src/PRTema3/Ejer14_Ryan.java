@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Pedir 5 nombres (igual para 500) y decir cuál es el primero de la lista.
  */
 package PRTema3;
 
